@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin:1px;
+    padding:1px;
+}
+
+#leg{
+    text-align: center;
+    padding: 8px; 
+}
+
+#form2{
+    padding-top: 8px;
+    
+}
+
+#obr{
+    color: red;
+}
+
+
+body{
+    background-image: url("../Newinter/imagens/columns-5747584_1921.jpg");
+    background-size: cover;
+    background-position-y:-190px; 
+    
+}
+.menu {
+    overflow: hidden;
+    margin-bottom: 10px;
+    
+}
+.menu a{
+    border-radius: 6px;
+    float: left;
+    color: #F1F1F1;
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.menu a:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+
+#leg{
+    color:black;
+    font-size: 40px;
+    padding: 10px;
+}
+#legen{
+    font-size:20px;
+    text-align: center;
+
+
+}
+.menu a.ativo{
+    background-color: #4CAF50;
+    color: white;
+}
+
+#listagem{
+    padding-top: 20px;
+    opacity: 0.8;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#tbody{
+    color: white;
+    font-size: 17px;
+}
+
+#table{
+    font-size:20px;
+    padding-left: auto;
+    padding-right:auto;
+    width: 100%;
+    
+}
+#caption{
+    font-size: 40px;
+    padding:15px;
+    text-align: center;
+    color:black;
+    
+}
+
+#caption2{
+    font-size: 40px;
+    padding-top:30px;
+    text-align: center;
+    color:black;
+    
+}
+
+.form{
+    padding-top:40px ;
+    opacity: 0.8;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-group {
+    
+    display: flex;   flex-direction: row;
+    
+}
+.form-group label{
+    flex: none;      
+    display: block;
+    font-weight: bold;
+    font-size: 18px;  
+}
+.form-group label.right-inline {
+     padding-right: 5px;
+    padding-left: 10px; width: auto; ;
+}
+.form-group .input-control{
+    margin-bottom: 10px;  margin-right: 10px;
+          flex: 1 1 auto; opacity:0.8;
+          border-radius:6px;
+          
+}
+
+
+button{
+    color: white;
+    background-color: #4CAF50;;
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    min-width: 100px;
+    
+}
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilo.css" rel="stylesheet" />
+    <title>Cadastro de produtos</title>
+</head>
+<body>
+    <div class="menu">
+        <a class="ativo" href="Inter.html">Início</a>
+        <a href="inter2.html">Produtos</a>
+        </div>
+        <div class="form">
+             <form name="frmCliente">
+                    <legend id="leg"><strong>Cadastro</strong></legend>
+                    <div class="form-group">
+                         <label>Código</label>
+                         <input class="input-control" type="number" size="20" id="codigo" />
+                    
+                        <label id="obr">Nome</label>
+                        <input class="input-control" type="text" size="20" id="nome"/>
+
+                        <label class="right-inline">Preço de Custo R$</label>
+                        <input class="input-control" type="number" size="20" id="precocusto" placeholder="R$" />
+                    </div>
+
+                    <div class="form-group">
+
+                        <label class="right-inline">LUCRO R$</label>
+                        <input class="input-control" type="number" size="20" id="lucro" placeholder="R$" />
+
+                        <label class="right-inline" id="obr">Preço de venda R$</label>
+                        <input class="input-control" type="number" size="20" id="precodevenda" placeholder="R$" />
+                    </div>
+
+             
+                    <div class="form-group">
+                        <label class="right-inline">ICMS %</label>
+                        <input class="input-control" type="number" size="20" id="icms" />
+
+                        <label class="right-inline" id="obr">Nota Fiscal</label>
+                        <input class="input-control" type="number" size="20" id="notafiscal" />
+
+                        <label class="right-inline">Marca</label>
+                        <input class="input-control" type="text" size="20" id="marca" />
+                    </div>
+
+                    <div class="form-group">
+
+                        <label class="right-inline" id="obr">Categoria</label>
+                        <input class="input-control" type="number" size="20" id="categoria" />
+                    
+                        <label class="right-inline">Origem</label>
+                        <input class="input-control" type="text" size="20" id="origem" />
+
+                        <label class="right-inline">Código de barras</label>
+                        <input class="input-control" type="number" size="20" id="codigodebarras" />
+                    </div>
+
+                    <div class="form-group">
+                        <label></label>
+                        <button id="salvar">💾 Emitir</button>
+                        <button id="cancelar">❌ Cancelar</button>
+
+                    </div>
+            </form>
+                <legend id="legen"> <strong>* Campos em vermelho são obrigatórios para emissão de Nf</strong></legend>
+         </div>  
+
+        <div id="listagem"></div>
+    <script src="cliente2.js"></script> 
+                
+    
+</body>
+</html>
